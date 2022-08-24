@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @codetree
+- 👋 Hi, I’m @Funcoding
 - 👀 I’m interested in UI/UX & Frontend development
 - 🌱 I’m currently learning , Javascript Node.js, React.js 
 - 💞️ I’m looking to collaborate on my service 
