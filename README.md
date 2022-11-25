@@ -40,20 +40,35 @@ node_modules
 
 
 
-### 기존 리포지토리 깔끔하게 pull / push
+## github 연결하기
+
+### git name 과 email 등록
+
 ```
-git pull
+git config --global user.name 닉네임
+git config --global user.email 이메일주소
+```
+
+### Github repository 생성하기
+### Repository 링크복사 (git clone —> remote add 필요없음!!)
+```
+git clone 레포지토리 주소
+```
+
+### 로컬 폴더 확인 —> .git 폴더 확인
+```
+git remote add [origin] [깃허브주소]
+```
+
+### 중간확인
+```
+git remote
+```
+
+### 파일수정 이후
+```
 git add .
-git commit -m "clean push"
-git push
-```
-
-### 기존 리포지토리 remote 제거
-```
-git remote remove origin
-```
-
-### 새 리포지토리 remote 추가
-```
-git remote add origin https://github.com/계정/리포지토리
+git status
+git commit -m "커밋메세지"
+git push origin 브랜치명
 ```
